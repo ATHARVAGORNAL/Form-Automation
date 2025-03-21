@@ -12,7 +12,7 @@ driver.implicitly_wait(5)  # Implicit wait
 # Loop to submit the form 20 times
 for i in range(170):
     # Open the Google Form
-    driver.get("https://docs.google.com/forms/d/e/1FAIpQLSfN0t8yUhThT49Zfx8Er5v0xX478K7e-r7_5MJ98syjdfCzrw/viewform")
+    driver.get("google form link here")
 
     # Locate and select multiple-choice answers (Modify XPath as per your form structure)
     try:
